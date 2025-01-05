@@ -1,4 +1,4 @@
-# @nestixis/nestjs-mailer
+# NestJS Mailer
 
 @nestixis/nestjs-mailer is a NestJS module that integrates nodemailer for sending emails and uses React to render email templates. 
 
