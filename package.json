@@ -1,0 +1,46 @@
+{
+  "name": "@nestixis/nestjs-mailer",
+  "version": "1.0.1",
+  "description": "NestJS implementation for Nodemailer and React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "tsc:publish": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nestixis/nestjs-mailer.git"
+  },
+  "keywords": [
+    "nestjs",
+    "mailer"
+  ],
+  "author": "Nestixis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nestixis/nestjs-mailer/issues"
+  },
+  "homepage": "https://github.com/Nestixis/nestjs-mailer#readme",
+  "peerDependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@react-email/render": "^1.0.3",
+    "nodemailer": "^6.9.16",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
