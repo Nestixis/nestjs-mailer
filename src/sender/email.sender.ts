@@ -30,7 +30,7 @@ export class EmailSender implements EmailSenderInterface {
       from: this.from,
       to,
       subject,
-      html: render(template),
+      html: await render(template),
     });
   }
 }

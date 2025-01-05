@@ -1,6 +1,6 @@
 {
   "name": "@nestixis/nestjs-mailer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NestJS implementation for Nodemailer and React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
